@@ -11,7 +11,7 @@
 		"isTidallyLocked": true,
 		"inclination": 40,
 		"longitudeOfAscendingNode": 90,
-		"showOrbitLine": true
+		"showOrbitLine": false
 	},
 	"HeightMap": {
 		"heightMap": "planets/assets/luna_heightmap.png",
