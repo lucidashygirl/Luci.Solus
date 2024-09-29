@@ -1,0 +1,23 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Brittle Hollow",
+	"Props": {
+		"details": [
+			{
+				"path": "DreamWorld_Body/Prefab_IP_VisionTorchItem/Prefab_IP_VisionTorchProjector",
+				"position": {"x": 212.8177, "y": -56.44429, "z": 64.08191},
+				"rotation": {"x": 11.45076, "y": 169.9701, "z": 103.5306},
+				"isRelativeToParent": true
+			}
+		],
+		"translatorText": [
+			{
+			  	"type": "recorder",
+			  	"xmlFile": "planets/xml/brittle_tower.xml",
+			  	"position": {"x": 212.8716, "y": -55.82347, "z": 64.50626},
+				"rotation": {"x": 13.4982, "y": 170.4768, "z": 103.6401},
+				"isRelativeToParent": true
+			}
+		]
+	}
+}

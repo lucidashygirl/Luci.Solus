@@ -1,0 +1,15 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Quantum Moon",
+	"Props": {
+		"translatorText": [
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/quantummoon_northpole_db.xml",
+				"parentPath": "Sector_QuantumMoon/State_DB/Geometry_DBState/BatchedGroup/BatchedMeshColliders_2",
+				"position": { "x": 13.04506, "y": 66.53731, "z": 14.73937 },
+				"rotation": { "x": 345.5628, "y": 219.6457, "z": 359.8055 }
+			}
+		]
+	}
+}

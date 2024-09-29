@@ -1,0 +1,76 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Absconditus",
+	"Base": {
+		"surfaceSize": 100,
+		"surfaceGravity": 6
+	},
+	"Orbit": {
+		"primaryBody": "Sun",
+		"semiMajorAxis": 23000,
+		"isTidallyLocked": true,
+		"inclination": 40,
+		"longitudeOfAscendingNode": 90,
+		"trueAnomaly": 180,
+		"showOrbitLine": false
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/luna_heightmap.png",
+		"textureMap": "planets/assets/Terrain_TH_Cave_d.png",
+		"emissionMap": "planets/assets/Big_Terrain_TH_Cave_e.png",
+		"minHeight": 50,
+		"maxHeight": 50,
+		"baseTile": {
+			"size": 5,
+			"normalTile": "planets/assets/Terrain_TH_Cave_n.png",
+			"textureTile": "planets/assets/Terrain_TH_Cave_d.png",
+			"normalStrength": 2
+		}
+	},
+	"Volumes": {
+		"speedTrapVolumes": [
+			{
+				"radius": 1000,
+				"speedLimit": 10
+			}
+		]
+	},
+	"Cloak": {
+		"radius": 1000
+	},
+	"Props": {
+		"translatorText": [
+			{
+				"type": "computer",
+				"xmlFile": "planets/xml/abs_computer.xml",
+				"position": {
+					"x": 5.118699,
+					"y": -47.46019,
+					"z": 14.87712
+				},
+				"rotation": {
+					"x": 18.13649,
+					"y": 207.8349,
+					"z": 182.7743
+				}
+			}
+		],
+		"signals": [
+			{
+				"frequency": "Nomai Network",
+				"name": "Outlet",
+				"audio": "planets/assets/audio/SimSignal1.wav",
+				"volume": 1.0,
+				"sourceRadius": 3,
+				"position": {
+					"x": 5.118699,
+					"y": -47.46019,
+					"z": 14.87712
+				},
+				"identificationRadius": 6,
+				"detectionRadius": 10,
+				"onlyAudibleToScope": false
+			}
+		]
+	}
+}

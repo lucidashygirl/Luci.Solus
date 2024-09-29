@@ -1,0 +1,118 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Procul",
+	"Base": {
+		"surfaceSize": 100,
+		"surfaceGravity": 6,
+		"hasMapMarker": false
+	},
+	"Orbit": {
+		"primaryBody": "Sun",
+		"semiMajorAxis": 23000,
+		"isTidallyLocked": true,
+		"inclination": 40,
+		"longitudeOfAscendingNode": 90,
+		"showOrbitLine": false
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/luna_heightmap.png",
+		"textureMap": "planets/assets/Terrain_THM_Moon_s.png",
+		"minHeight": 90,
+		"maxHeight": 110,
+		"baseTile": {
+			"size": 5,
+			"normalTile": "planets/assets/LOD_Terrain_TH_Cave_n.png",
+			"textureTile": "planets/assets/Terrain_THM_Moon_s.png",
+			"normalStrength": 2
+		}
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/Props_NOM_Transponder",
+				"position": {
+					"x": 0.1764174,
+					"y": -91.53739,
+					"z": -1.431198
+				},
+				"rotation": {
+					"x": 358.8559,
+					"y": 285.1719,
+					"z": 170.7569
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)",
+				"position": {
+					"x": 34.00841,
+					"y": -70.06908,
+					"z": -50.49587
+				},
+				"rotation": {
+					"x": 39.66035,
+					"y": 312.4109,
+					"z": 172.0775
+				},
+				"scale": 1.5
+			}
+		],
+		"signals": [
+			{
+				"frequency": "EscapePod",
+				"name": "Escape Pod 5",
+				"audio": "OW_NM_WhiteHoleAmbienceL",
+				"sourceRadius": 3,
+				"position": {
+					"x": 0.1764174,
+					"y": -91.53739,
+					"z": -1.431198
+				},
+				"identificationRadius": 6,
+				"detectionRadius": 10
+			}
+		],
+		"translatorText": [
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/holywow.xml",
+				"position": {
+					"x": -2.327621,
+					"y": -90.89916,
+					"z": -4.874344
+				},
+				"rotation": {
+					"x": 358.6251,
+					"y": 109.6981,
+					"z": 188.4928
+				}
+			},
+			{
+				"type": "whiteboard",
+				"position": {
+					"x": 35.77565,
+					"y": -69.71624,
+					"z": -49.75385
+				},
+				"rotation": {
+					"x": 38.49332,
+					"y": 304.9798,
+					"z": 167.503
+				}
+			},
+			{
+				"type": "scroll",
+				"xmlFile": "planets/xml/whiteboard.xml",
+				"position": {
+					"x": 34.42176,
+					"y": -71,
+					"z": -51.07528
+				},
+				"rotation": {
+					"x": 355.8048,
+					"y": 229.7521,
+					"z": 139.8663
+				}
+			}
+		]
+	}
+}

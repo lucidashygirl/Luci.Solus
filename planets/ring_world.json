@@ -1,0 +1,74 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Ring World",
+	"Props": {
+		"translatorText": [
+			{
+			  	"type": "recorder",
+			  	"xmlFile": "planets/xml/stranger_secretentrance.xml",
+			  	"position": {"x": 177.5315, "y": -157.9974, "z": 208.3854},
+              	"rotation": {"x": 37.71743, "y": 135.2309, "z": 270}
+			},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/stranger_darkentrance.xml",
+				"position": {"x": 65.42174, "y": 82.78105, "z": -278.4441},
+				"rotation": {"x": 40.61784, "y": 75.36749, "z": 90.00007}
+		  	},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/stranger_darkside_afterdrop.xml",
+				"position": {"x": -129.943, "y": 39.33736, "z": -253.9221},
+				"rotation": {"x": 34.83585, "y": 298.1839, "z": 269.9997}
+		  	},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/stranger_artifacthouse.xml",
+				"position": {"x": -49.39376, "y": -98.32731, "z": -290.8586},
+				"rotation": {"x": 327.873, "y": 103.5295, "z": 90.00004}
+		  	},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/stranger_church.xml",
+				"position": {"x": -245.6286, "y": -56.85605, "z": 146.0609},
+				"rotation": {"x": 346.082, "y": 31.22483, "z": 270.3833}
+		  	},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/stranger_eyeslide.xml",
+				"position": {"x": -281.2474, "y": -49.42402, "z": 67.68136},
+				"rotation": {"x": 58.3507, "y": 12.06787, "z": 270}
+		  	},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/stranger_shackoutside.xml",
+				"position": {"x": -158.3525, "y": -15.71503, "z": -254.1209},
+				"rotation": {"x": 52.17811, "y": 128.087, "z": 98.97978}
+		  	},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/stranger_ringslide.xml",
+				"position": {"x": -64.87315, "y": 31.30707, "z": -278.3358},
+				"rotation": {"x": 70.85992, "y": 103.0653, "z": 90.00032}		
+		  	},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/stranger_lightentrance.xml",
+				"position": {"x": 48.75631, "y": -93.9671, "z": -293.8581},
+				"rotation": {"x": 300.0037, "y": 261.014, "z": 270.0001}	
+		  	},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/stranger_artifactslide.xml",
+				"position": {"x": 129.8796, "y": -65.40762, "z": 213.7295},
+				"rotation": {"x": 279.87, "y": 300.5213, "z": 89.99973}	
+		  	},
+			{
+				"type": "scroll",
+				"xmlFile": "planets/xml/stranger_summaryscroll.xml",
+				"position": {"x": 233.9269, "y": -73.70827, "z": -147.0701},
+				"rotation": {"x": 7.126981, "y": 212.3479, "z": 270},
+		  	}
+		]
+	}
+}

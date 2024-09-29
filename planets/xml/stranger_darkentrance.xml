@@ -1,0 +1,36 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+    <TextBlock>
+        <ID>1</ID>
+        <Text>HYACINTH: I've found a spot where there is no exposure to the vacuum of space, great! Now, there's a lot that happened.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>2</ID>
+        <ParentID>1</ParentID>
+        <Text>HYACINTH: I flew towards that shadow I saw eclipsing the sun, and this huge spaceship shows itself! Suppose this species created a cloaking field!</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>3</ID>
+        <ParentID>2</ParentID>
+        <Text>HYACINTH: Their landing bay was easy to spot, but my ship lacks eyes, so I had to keep it out there.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>4</ID>
+        <ParentID>3</ParentID>
+        <Text>HYACINTH: Most curious of all, there is this green glass in some of these structures, and they react to light of any kind.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>5</ID>
+        <ParentID>4</ParentID>
+        <Text>HYACINTH: There is also an interface I can test, as I will momentarily.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>6</ID>
+        <ParentID>5</ParentID>
+        <Text>*click, splash*</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>7</ID>
+        <ParentID>6</ParentID>
+        <Text>[Inactive for 30 seconds, ending recording.]</Text>
+    </TextBlock>
+</NomaiObject>

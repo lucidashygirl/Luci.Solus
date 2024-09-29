@@ -1,0 +1,36 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+    <TextBlock>
+        <ID>1</ID>
+        <Text>HYACINTH: Well, I ran out of recorders, so I have to imbue the rest of my information on a scroll.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>2</ID>
+        <ParentID>1</ParentID>
+        <Text>HYACINTH: So, I found a fire that isn't surrounded by others, and I slept with the device in my hand. I woke up with it lit in my hand and without my suit! (Hopefully I can prevent the latter in the future.)</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>3</ID>
+        <ParentID>2</ParentID>
+        <Text>HYACINTH: Anyways, that confirms my hypothesis, although, the nature of this place still confuses me.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>4</ID>
+        <ParentID>1</ParentID>
+        <Text>HYACINTH: I will be departing soon, I think I have seen enough for now. Perhaps later I can improvise on this technology, after I am finished visiting the Quantum Moon.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>5</ID>
+        <ParentID>4</ParentID>
+        <Text>HYACINTH: They said something about the North Pole, right?</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>6</ID>
+        <ParentID>1</ParentID>
+        <Text>HYACINTH: I can't tell if this would be seen as a grand discovery or sacrelige, best to keep this knowledge to myself for now.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>7</ID>
+        <ParentID>6</ParentID>
+        <Text>HYACINTH: Then again, I don't think my liberal usage of recorders is doing the whole secrecy plan any favors.</Text>
+    </TextBlock>
+</NomaiObject>

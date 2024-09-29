@@ -1,0 +1,89 @@
+{
+    "name": "dryrock",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "SolarSystem",
+    "Base": {
+        "groundSize": 0,
+        "surfaceSize": 0,
+        "surfaceGravity": 0,
+        "hasMapMarker": false
+    },
+    "Orbit": {
+        "primaryBody": "Sun",
+        "staticPosition": {
+            "x": 0,
+            "y": 20000,
+            "z": 0
+        }
+    },
+    "Bramble": {
+        "dimension": {
+            "fogDensity": 50,
+            "radius": 100,
+            "linksTo": "wetnode",
+            "fogTint": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 255
+            }
+        }
+    },
+    "Props": {
+        "details": [
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector Quantum Pole Path/Fragment QuantumPolePath 2/Interactables_QPP2/Prefab_NOM_GravityCrystal",
+                "position": {
+                    "x": 17.6808,
+                    "y": -21.91708,
+                    "z": -38.89808
+                },
+                "rotation": {
+                    "x": 9.097807,
+                    "y": 288.8243,
+                    "z": 318.2419
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/AnglerFishExhibit/AnglerFishTankPivot/Beast_Anglerfish",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "scale": 0.1
+            },
+            {
+                "path": "Anglerfish_Body/Beast_Anglerfish_Collision",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "scale": 0.1
+            }
+        ],
+        "audioSources": [
+            {
+                "audio": "Anglerfish_Sleeping",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "maxDistance": 1000,
+                "volume": 100
+            }
+        ]
+    }
+}

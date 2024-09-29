@@ -1,0 +1,83 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Timber Hearth",
+	"Props": {
+		"translatorText": [
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/th_watercave.xml",
+				"position": {
+					"x": -27.4905,
+					"y": -117.979,
+					"z": 23.66485
+				},
+				"rotation": {
+					"x": 24.62815,
+					"y": 147.5068,
+					"z": 186.2799
+				}
+			},
+			{
+				"type": "scroll",
+				"xmlFile": "planets/xml/th_watercave_coherent.xml",
+				"position": {
+					"x": -29.82242,
+					"y": -117.9608,
+					"z": 20.98949
+				},
+				"rotation": {
+					"x": 23.03691,
+					"y": 158.2966,
+					"z": 196.4284
+				}
+			}
+		],
+		"details": [
+			{
+				"rename": "th_museum_recording",
+				"path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder",
+				"position": {
+					"x": -63.87698,
+					"y": 1.803902,
+					"z": 239.4842
+				},
+				"rotation": {
+					"x": 354.4128,
+					"y": 75.39629,
+					"z": 89.72358
+				}
+			}
+		],
+		"dialogue": [
+			{
+				"position": {
+					"x": -63.87698,
+					"y": 1.803902,
+					"z": 239.4842
+				},
+				"pathToAnimController": "Sector_TH/th_museum_recording",
+				"parentPath": "Sector_TH/th_museum_recording",
+				"radius": 2,
+				"xmlFile": "planets/xml/th_museum.xml"
+			}
+		],
+		"singularities": [
+			{
+				"uniqueID": "Gay",
+				"type": "blackHole",
+				"horizonRadius": 2,
+				"position": {
+					"x": -85.25365,
+					"y": -11.97086,
+					"z": -155.2752
+				},
+				"rotation": {
+					"x": 14.64872,
+					"y": 120.656,
+					"z": 260.924
+				},
+				"pairedSingularity": "Lesbian"
+			}
+		]
+	}
+}

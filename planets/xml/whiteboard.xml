@@ -1,0 +1,21 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+    <TextBlock>
+        <ID>1</ID>
+        <Text>HYACINTH: The construction of the shell is complete!</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>2</ID>
+        <ParentID>1</ParentID>
+        <Text>HYACINTH: The ore I chose looks similar to stars, but only at a close distance unfortunately.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>3</ID>
+        <ParentID>1</ParentID>
+        <Text>HYACINTH: It's resiliant to the blast of a supernova.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>4</ID>
+        <ParentID>1</ParentID>
+        <Text>HYACINTH: I'm glad they didn't notice me taking any of the ore.</Text>
+    </TextBlock>
+</NomaiObject>

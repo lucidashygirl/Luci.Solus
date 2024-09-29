@@ -1,0 +1,26 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+    <TextBlock>
+        <ID>1</ID>
+        <Text>HYACINTH: Ok, that isn't going to work. I should keep in mind next time that it's hard to speak underwater.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>2</ID>
+        <ParentID>1</ParentID>
+        <Text>Anyways... this cave is cool! This species is thriving down here and no one even knows I'm present (they are busy at mining site 2b).</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>3</ID>
+        <ParentID>2</ParentID>
+        <Text>The dark, cool surroundings remind me of my little rock way out there, though oxygen is much more scarce there.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>4</ID>
+        <ParentID>1</ParentID>
+        <Text>I should probably sneak into mining site 2b for my little project.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>5</ID>
+        <ParentID>4</ParentID>
+        <Text>Even if they work long and hard on this project, every Nomai goes to sleep at some point.</Text>
+    </TextBlock>
+</NomaiObject>

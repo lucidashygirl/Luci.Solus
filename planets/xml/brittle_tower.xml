@@ -1,0 +1,21 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+    <TextBlock>
+        <ID>1</ID>
+        <Text>SOLANUM: Hy, I saw your message, and I would gladly travel over to Procul to check out your discoveries.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>2</ID>
+        <ParentID>1</ParentID>
+        <Text>SOLANUM: Your vision staff is incredible, I'm sure this other technology you found would be worthy of being shown at a festival!</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>3</ID>
+        <ParentID>2</ParentID>
+        <Text>SOLANUM: I do have to finish my pilgrimage to the Quantum Moon before visiting, and my father might be arriving back home as I return.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>4</ID>
+        <ParentID>3</ParentID>
+        <Text>SOLANUM: I promise I will visit you after all I have mentioned, dear friend.</Text>
+    </TextBlock>
+</NomaiObject>

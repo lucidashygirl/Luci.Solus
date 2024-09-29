@@ -1,0 +1,15 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Tape Recorder pretending to be Hornfels</NameField>
+
+    <DialogueNode>
+        <Name>START</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Wow, I can't believe it! There's a dwarf planet in our solar system!</Page>
+            <Page>It orbits our sun at an angle, further supporting the idea that it arrived from another system!</Page>
+            <Page>I should probably- what is it Hal? The Statue's eyes opened?! I have to see this!</Page>
+            <Page>*thud*</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>

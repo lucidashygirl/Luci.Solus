@@ -1,0 +1,46 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+    <TextBlock>
+        <ID>1</ID>
+        <Text>HYACINTH: Ah, a dark corner with the gentle sounds of water, perfect.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>2</ID>
+        <ParentID>1</ParentID>
+        <Text>HYACINTH: Really helps calm my nerves after being chased by the residents of a ship no one but me knows about.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>3</ID>
+        <ParentID>2</ParentID>
+        <Text>HYACINTH: So, in my desire to explore, I forgot to consider the possibility that I am tresspassing.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>4</ID>
+        <ParentID>3</ParentID>
+        <Text>HYACINTH: But the flame of curiosity compels me to continue searching for answers. I'll return shortly.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>5</ID>
+        <ParentID>4</ParentID>
+        <Text>[USER REQUEST: ON STANDBY]</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>6</ID>
+        <ParentID>5</ParentID>
+        <Text>[USER REQUEST: RECORDING CONTINUES]</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>7</ID>
+        <ParentID>6</ParentID>
+        <Text>HYACINTH: It seems they used to live on the moon of a ringed gas giant, but heard the signal of The Eye and traveled here.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>8</ID>
+        <ParentID>7</ParentID>
+        <Text>HYACINTH: Sounds similar to what everyone else said about their arrival here, I wonder if this species' home was destroyed in the process too.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>9</ID>
+        <ParentID>8</ParentID>
+        <Text>HYACINTH: This Eye of The Universe stuff is depressing me, how about some adventure to.. that lone raft across the river?</Text>
+    </TextBlock>
+</NomaiObject>

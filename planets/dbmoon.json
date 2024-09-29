@@ -1,0 +1,88 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "???",
+	"Base": {
+		"surfaceSize": 20,
+		"surfaceGravity": 3
+	},
+	"Orbit": {
+		"primaryBody": "Dark Bramble",
+		"semiMajorAxis": 3000,
+		"isTidallyLocked": true,
+		"inclination": 40,
+		"longitudeOfAscendingNode": 90,
+		"showOrbitLine": true
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/luna_heightmap.png",
+		"textureMap": "planets/assets/Terrain_THM_Moon_s.png",
+		"minHeight": 10,
+		"maxHeight": 10,
+		"baseTile": {
+			"size": 5,
+			"normalTile": "planets/assets/LOD_Terrain_TH_Cave_n.png",
+			"textureTile": "planets/assets/Terrain_THM_Moon_s.png",
+			"normalStrength": 2
+		}
+	},
+	"Props": {
+		"slideShows": [
+			{
+				"position": {
+					"x": 0.2984797,
+					"y": 0.899487,
+					"z": 9.95499
+				},
+				"rotation": {
+					"x": 83.10741,
+					"y": 320.0596,
+					"z": 318.5486
+				},
+				"type": "slideReel",
+				"slides": [
+					{
+						"imagePath": "planets/assets/slides/absconditus/frame0000.png",
+						"backdropAudio": "Reel_1_Backdrop_A"
+					},
+					{
+						"imagePath": "planets/assets/slides/absconditus/frame0001.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/absconditus/frame0002.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/absconditus/frame0003.png",
+						"backdropAudio": "Reel_1_Beat_C"
+					},
+					{
+						"imagePath": "planets/assets/slides/absconditus/frame0004.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/absconditus/frame0005.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/absconditus/frame0006.png"
+					}
+				]
+			}
+		],
+		"singularities": [
+			{
+				"uniqueID": "Lesbian",
+				"type": "whiteHole",
+				"horizonRadius": 0,
+				"position": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"rotation": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"pairedSingularity": "Gay"
+			}
+		]
+	}
+}

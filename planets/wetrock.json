@@ -1,0 +1,49 @@
+{
+    "name": "wetnode",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "SolarSystem",
+    "Base": {
+        "groundSize": 0,
+        "surfaceSize": 0,
+        "surfaceGravity": 0,
+        "hasMapMarker": false,
+        "invulnerableToSun": false
+    },
+    "Orbit": {
+        "primaryBody": "Sun",
+        "staticPosition": {
+            "x": 0,
+            "y": 4000,
+            "z": 0
+        }
+    },
+	"Cloak": {
+		"radius": 1000
+	},
+    "Bramble": {
+        "nodes": [
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "linksTo": "dryrock",
+                "name": "wetnode",
+                "fogTint": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 255
+                },
+                "lightTint": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
+                },
+                "scale": 0.5
+            }
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+    <TextBlock>
+        <ID>1</ID>
+        <Text>HYACINTH: This is the darkest spot yet, I might fall asleep.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>2</ID>
+        <ParentID>1</ParentID>
+        <Text>HYACINTH: Not now though, at least I have to log my findings.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>3</ID>
+        <ParentID>2</ParentID>
+        <Text>HYACINTH: So, there were two notable slide reels this time around, though one seemed.. atypical.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>4</ID>
+        <ParentID>3</ParentID>
+        <Text>HYACINTH: For the first one, the inhabitants of this ship played a reel of what looks like their home, presumably grieving over it.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>5</ID>
+        <ParentID>4</ParentID>
+        <Text>HYACINTH: Most of the contents are purged, but the intact slides depict them all going to sleep around a fire, just like I saw earlier. How.. long could they have they been there?</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>6</ID>
+        <ParentID>5</ParentID>
+        <Text>HYACINTH: A-anyways, the second reel showed some explosion coming from the light side of the ship, perhaps I have found my third entrance.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>7</ID>
+        <ParentID>6</ParentID>
+        <Text>HYACINTH: We will find out soon, I just.. have to...</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>8</ID>
+        <ParentID>7</ParentID>
+        <Text>[Inactive for 30 seconds, ending recording.]</Text>
+    </TextBlock>
+</NomaiObject>
